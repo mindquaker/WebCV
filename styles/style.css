@@ -1,0 +1,96 @@
+body{
+  color: #f9f8eb;
+}
+h1{
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
+  font-size: 10px;
+  margin-bottom: 50px;
+}
+.navbar{
+  position: fixed;
+}
+.navbar-brand{
+/*  margin-right : 20px;*/
+  padding-right: 75%;
+
+}
+.nav-item{
+  margin: 0px 20px;
+}
+.middle{
+  text-align: center;
+}
+.frm{
+  padding-top: 50px;
+}
+
+.name{
+  text-align: center;
+  font-family:cursive;
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+
+}
+
+.mail{
+  text-align: center;
+  font-family:cursive;
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+.pass{
+  text-align: center;
+  font-family:cursive;
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+.con{
+  text-align: center;
+  font-family:cursive;
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+.buttons{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.butn-1 {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  background: #34d947;
+  padding: 10px 20px 10px 20px;
+  margin-right: 20px;
+  border: solid #1f628d 0px;
+  text-decoration: none;
+
+}
+
+.butn-1:hover {
+  background: #1da322;
+  text-decoration: none;
+}
+
+
+.butn-2 {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  background: #76e8f0;
+  padding: 10px 20px 10px 20px;
+  border: solid #1f628d 0px;
+  text-decoration: none;
+}
+
+.butn-2:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+
+}
