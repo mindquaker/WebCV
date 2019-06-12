@@ -21,51 +21,29 @@ h1{
 .middle{
   text-align: center;
 }
-.frm{
+
+.box{ /*Form*/
+  text-align: center;
   padding-top: 50px;
 }
 
-.name{
-  text-align: center;
-  font-family:cursive;
-  font-size: 1.5rem;
-  padding-bottom: 10px;
 
-}
-
-.mail{
-  text-align: center;
-  font-family:cursive;
-  font-size: 1.5rem;
-  padding-bottom: 10px;
-}
-.pass{
-  text-align: center;
-  font-family:cursive;
-  font-size: 1.5rem;
-  padding-bottom: 10px;
-}
-.con{
-  text-align: center;
-  font-family:cursive;
-  font-size: 1.5rem;
-  padding-bottom: 10px;
-}
 .buttons{
   text-align: center;
-  margin-bottom: 30px;
+
+   margin: 30px 0px 100px 100px;
 }
 .butn-1 {
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
   font-family: Courier New;
-  color: #ffffff;
+  color: #000000;
   font-size: 20px;
-  background: #34d947;
+  background: #ffffff;
   padding: 10px 20px 10px 20px;
   margin-right: 20px;
-  border: solid #1f628d 0px;
+  border: solid #4CAF50 2px;
   text-decoration: none;
 
 }
@@ -73,6 +51,7 @@ h1{
 .butn-1:hover {
   background: #1da322;
   text-decoration: none;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 
@@ -81,16 +60,36 @@ h1{
   -moz-border-radius: 28;
   border-radius: 28px;
   font-family: Courier New;
-  color: #ffffff;
+  color: #000000;
   font-size: 20px;
-  background: #76e8f0;
+  background: #ffffff;
   padding: 10px 20px 10px 20px;
-  border: solid #1f628d 0px;
+  border: solid #008CBA 2px;
   text-decoration: none;
 }
 
 .butn-2:hover {
   background: #3cb0fd;
   text-decoration: none;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 
+}
+label{
+  display: inline-block;
+  width: 200px;
+  margin-right: 30px;
+  text-align: right;
+  padding-bottom: 30px;
+  font-size: 1.5rem;
+}
+input{
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+  padding-bottom: 10px;
+}
+fieldset{
+  border: none;
+  width: 500px;
+  margin: 0px auto;
 }
