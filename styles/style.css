@@ -25,11 +25,7 @@ h1{
 .box{ /*Form*/
   text-align: center;
   padding-top: 50px;
- box-sizing: content-box;
-  border-width: 8px;
-  border-style: solid;
-  border-image: linear-gradient(79deg, rgba(0,140,186,1) 32%, rgba(76,175,80,1) 73%);
-  border-image-slice: 1;
+ 
 }
 
 
@@ -98,3 +94,9 @@ fieldset{
   width: 500px;
   margin: 0px auto;
 }
+form{
+  box-sizing: content-box;
+  border-width: 8px;
+  border-style: solid;
+  border-image: linear-gradient(79deg, rgba(0,140,186,1) 32%, rgba(76,175,80,1) 73%);
+  border-image-slice: 1;}
