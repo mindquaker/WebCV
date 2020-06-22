@@ -46,29 +46,38 @@
     <h1>Create a Website for your CV that can create an awesome impression on your potential employer. </h1>
   </div>
   <div class="box">
-    <form method="post" enctype="text/plain">
-      <div class="name">
-        <label for="">Your Name:</label>
-        <input type="text" name="" value="" required>
-        <br>
-      </div>
 
-      <div class="mail">
-        <label  for="">Your Emai:</label>
-        <input type="email" name="" value="" required>
-        <br>
-      </div>
+        <div class="name col-4">
 
-      <div class="pass">
-          <label class="pass"for="">Password:</label>
-          <input type="password" name="" value=""required>
+          <input type="text" class="form-control "  name="" placeholder="Your Name" value="" required>
           <br>
         </div>
-    <div class="con">
-      <label for="">Confirm Password:</label>
-      <input type="password" name="" value="" required>
-    <br>
-    </div>
+
+        <div class="mail  col-4">
+
+          <input type="email" class="form-control "  name="" placeholder="Your Email" value="" required>
+          <br>
+        </div>
+
+        <div class=" pass  col-4">
+
+          <input type="password" class="form-control"  name="" placeholder=" Password" value="" required>
+          <br>
+        </div>
+        <div class="con  col-4">
+          <input type="password" class="form-control"  name="" placeholder="Confirm Password" value="" required>
+          <br>
+        </div>
+        <p> Gender</p>
+        <div class=" gender">
+          <label class="">Male</label>
+          <input class="" type="radio" name="gender" value="male">
+          <label class="">Female</label>
+          <input class="" type="radio" name="gender" value="female">
+          <label class="" for=""> Others</label>
+          <input class="" type="radio" name="gender" value="others">
+        </div>
+      </div>
     <div class="buttons">
       <input class="butn-1" style="cursor:pointer" type="submit" name="" value="Sign Up" >
 
